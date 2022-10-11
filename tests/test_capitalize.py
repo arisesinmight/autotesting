@@ -1,4 +1,4 @@
-from autotesting.package.capitalize import capitalize
+from capitalize import capitalize
 
 if capitalize('hello') != 'Hello':
     raise Exception('Функция работает неверно!')
